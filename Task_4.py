@@ -6,8 +6,8 @@ def magic_ticket():
     half = len(ticket) // 2
     first_half = ticket[:half]
     second_half = ticket[half:]
-    sum_first = sum(int(digit) for digit in first_half)
-    sum_second = sum(int(digit) for digit in second_half)
+    sum_first = sum(int(chisl) for chisl in first_half)
+    sum_second = sum(int(chisl) for chisl in second_half)
 
     if sum_first == sum_second:
        print("Счатсливый билет")
